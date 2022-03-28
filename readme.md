@@ -1,11 +1,3 @@
-#### Dev initial setup
-```npm i```
-```docker-compose up -d```
-
-### development ...
-### Make migration
-```npx prisma migrate dev --name init```
-
 ![Typescript](https://img.shields.io/npm/v/typescript?color=3178c6&label=Typescript&logo=Typescript&style=for-the-badge)
 ![Node.js](https://img.shields.io/npm/v/node?color=%23339933&label=Node.js&logo=Node.js&style=for-the-badge)
 ![Fastify](https://img.shields.io/npm/v/fastify?color=000000&label=Fastify&logo=Fastify&style=for-the-badge)
