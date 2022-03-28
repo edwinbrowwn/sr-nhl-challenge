@@ -1,0 +1,29 @@
+{
+  "name": "sr-nhl-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --respawn --transpile-only --exit-child src/server.ts"
+  },
+  "author": "Edwin Brown",
+  "license": "ISC",
+  "dependencies": {
+    "@breejs/ts-worker": "^1.1.1",
+    "@prisma/client": "^3.11.1",
+    "axios": "^0.26.1",
+    "bree": "^8.0.2",
+    "fastify": "^3.27.4",
+    "fastify-swagger": "^5.0.0",
+    "fastify-zod": "^1.0.0-rc10",
+    "zod": "^3.14.2",
+    "zod-to-json-schema": "^3.11.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "prisma": "^3.11.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
