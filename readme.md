@@ -18,6 +18,11 @@ Make migrations
 ```bash
 npx prisma migrate dev --name init
 ```
+Copy env config
+
+```bash
+cp .env.example .env
+```
 ...
 ```bash
 npm run dev
