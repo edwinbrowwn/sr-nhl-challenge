@@ -10,7 +10,7 @@ server.get('/health', async () => {
     return { status: 'ok' }
 })
 
-const main = async () => {
+export const app = async () => {
 
     for (const schema of Schemas.gameSchemas) {
         server.addSchema(schema)
@@ -33,6 +33,8 @@ const main = async () => {
         console.error(err)
         process.exit(1)
     }
+
+    return server
 }
 
-main()
+app()

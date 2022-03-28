@@ -1,7 +1,7 @@
-import * as bree from 'bree'
+import bree from 'bree'
 import * as path from 'node:path'
 
-const jobs = new (bree as any)({
+const jobs = new bree({
     defaultExtension: 'ts',
     root: path.join(__dirname, ''),
     jobs: [
